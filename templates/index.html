@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tư vấn Nhà Đất AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>TƯ VẤN CĂN HỘ, BIỆT THỰ TẠI TP.HCM</h1>
+        <p class="subtitle">Nhập yêu cầu của bạn, ví dụ: <i>"Tìm căn hộ Quận 7 dưới 6 tỷ có 2 phòng ngủ"</i></p>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Nhập yêu cầu tìm nhà..." />
+            <button id="searchBtn">Tìm kiếm</button>
+        </div>
+
+        <div id="results" class="results"></div>
+    </div>
+
+    <!-- Chatbot bong bóng -->
+    <div class="chat-bubble" id="chatBubble">💬</div>
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+             Trợ lý hỗ trợ về Bất Động Sản 
+            <button class="chat-close" id="chatClose">×</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="msg bot">
+                👋 Xin chào! Tôi là trợ lý AI chuyên về bất động sản. 
+                Hãy cho tôi biết bạn cần tư vấn gì nhé!
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" placeholder="Nhập câu hỏi..." />
+            <button id="sendBtn">Gửi</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
