@@ -41,6 +41,7 @@ Hệ thống sử dụng kỹ thuật lai giữa lọc dữ liệu (Filtering) v
 |   ├── index.html
 ├── app1.py
 ├── nhadat.csv
+├── requirements.txt  
 └── README.md
 ```
 ## 💻 Hướng dẫn sử dụng  
@@ -55,7 +56,7 @@ pip install -r requirements.txt
 ```
 ### 3. Chạy Streamlit  
 ```python
-streamlit run app.py
+python3 app1.py
 ```
 ## 📬 Thông tin liên hệ
 
