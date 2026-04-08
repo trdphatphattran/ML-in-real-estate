@@ -46,8 +46,8 @@ Hệ thống sử dụng kỹ thuật lai giữa lọc dữ liệu (Filtering) v
 ## 💻 Hướng dẫn sử dụng  
 ### 1. Clone Repository  
 ```python
-git clone https://github.com/trdphatphattran/Pyspark-lda-news-classification.git
-cd Pyspark-lda-news-classification
+git clone https://github.com/trdphatphattran/Pyspark-lda-news-classification.git](https://github.com/trdphatphattran/ML-in-real-estate.git
+cd ML-in-real-estate
 ```
 ### 2. Cài thư viện  
 ```python
