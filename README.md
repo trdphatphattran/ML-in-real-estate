@@ -65,6 +65,7 @@ source env/bin/activate
 
 ### 3. Cài thư viện  
 ```python
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 ### 4. Chạy Streamlit  
