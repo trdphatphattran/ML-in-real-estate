@@ -50,11 +50,24 @@ Hệ thống sử dụng kỹ thuật lai giữa lọc dữ liệu (Filtering) v
 git clone https://github.com/trdphatphattran/Pyspark-lda-news-classification.git](https://github.com/trdphatphattran/ML-in-real-estate.git
 cd ML-in-real-estate
 ```
-### 2. Cài thư viện  
+
+### 2. Tạo môi trường ảo  
+```python
+# Tạo môi trường ảo
+python -m venv env
+
+# Kích hoạt môi trường
+# Windows:
+.\env\Scripts\activate
+# macOS/Linux:
+source env/bin/activate
+```
+
+### 3. Cài thư viện  
 ```python
 pip install -r requirements.txt
 ```
-### 3. Chạy Streamlit  
+### 4. Chạy Streamlit  
 ```python
 python3 app1.py
 ```
